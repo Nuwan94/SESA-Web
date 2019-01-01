@@ -1,0 +1,41 @@
+.header {
+    background: #1a1831;
+}
+
+.header ul.navbar-nav>li.header-special {
+    margin: 0 0 10px;
+}
+
+.section-title{
+    margin-bottom: 50px;
+}
+
+.owl-full{
+    
+}
+
+.table{
+    border: 1px solid #666;
+}
+
+section p{
+    color: #333;
+    text-align: justify;
+}
+
+section ul{
+    margin: 20px;
+    color:#3b1d82;
+}
+
+@media (min-width: 767px) {
+
+    section {
+        padding-top: 150px;
+    }
+
+    section ul{
+        margin-left: 100px;
+    }
+
+}

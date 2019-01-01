@@ -1,0 +1,116 @@
+.header {
+    background: #1a1831;
+}
+
+.header ul.navbar-nav>li.header-special {
+    margin: 0 0 10px;
+}
+
+.course{
+    background: #eee;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.filter select,
+.filter input {
+    width: 100% !important;
+}
+
+.filter .btn-info.legend {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 2em !important;
+    font-size: 1.5em;
+    border-radius: 0;
+    float: right;
+}
+
+.filter .table {
+    color: #333;
+}
+
+.filter .table,
+.filter .table tr,
+.filter .table td {
+    border: 2px solid #ccc;
+}
+
+.table tr td{
+    vertical-align: middle;
+}
+
+ .table .non {
+    color: green;
+}
+
+ .table .opt {
+    color: indigo;
+}
+
+ .table .dom {
+    color: red;
+}
+
+ .table .both {
+    color: teal;
+}
+
+.filter .table tr td i.fa-info-circle {
+    float: right;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #1a1831;
+}
+
+.filter .btn-sm{
+    margin: 5px;
+}
+
+.modal-dialog {
+    min-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 5%;
+}
+
+.modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}
+
+.modal-content p {
+    color: #333
+}
+
+.modal-content .table{
+    color: #333;
+}
+
+.modal-content .table td.icons {
+    color: #333;
+    font-size: 2em;
+    text-align: center;
+}
+
+@media (min-width:767px) {
+    section {
+        padding-top: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* .filter .table,
+    .filter .table tr,
+    .filter .table td {
+        border: none;
+    } */
+
+    
+
+}

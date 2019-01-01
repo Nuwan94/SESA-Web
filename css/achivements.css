@@ -1,0 +1,149 @@
+.header {
+  background: #1a1831;
+}
+
+.header ul.navbar-nav>li.header-special {
+  margin: 0 0 10px;
+}
+
+section {
+  padding-top: 120px;
+  background-image: url("../images/backgrounds/dot_bg.png");
+}
+
+.achivements-nav {
+  text-align: center;
+}
+
+.achivements-nav ul {
+  border: none;
+}
+
+.achivements-nav ul li {
+  margin: 0;
+  width: 33%;
+}
+
+.achivements-nav ul li a {
+  text-transform: uppercase;
+  display: block;
+  padding: 10px;
+  background:#fff;
+  border: 1px solid #333;
+}
+
+.achivements-nav ul li a {
+  color: #333;
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+
+.achivements-nav ul li:hover a, .achivements-nav ul li a.active {
+  background:#333;
+  color:#fff;
+}
+
+.achivements-tabs-item .achivements-listing-item {
+  position: relative;
+  margin: 0 0;
+  padding: 0;
+}
+
+.achivements-tabs-item .achivements-listing-item .achivement-post {
+  padding: 2em;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.achivements-listing-item .achivement-post .achivement-content {
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  padding: 2em 2em 1em;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.achivement-post:hover .achivement-content {
+  -webkit-box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.achivement-post .achivement-content h3 {
+  margin: 1em 1em .25em 0;
+  color: #3a1662;
+}
+
+.achivement-post .achivement-content p {
+  color: #333;
+  text-align: justify;
+  font-size: 12px;
+}
+
+.achivement-post .achivement-content p a {
+  
+  color: #0d47a1;
+  font-weight: bold;
+}
+
+.achivement-post .achivement-content p:hover a{
+  color:#b71c1c;
+} 
+
+.achivement-post .achivement-content p i.fa {
+  width: 16px;
+  text-align: center;
+  margin-top: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.achivement-post .achivement-img-overlay {
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.achivement-post .achivement-img-overlay img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.achivement-post:hover .achivement-img-overlay img {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+
+  .page-banner-title h2 {
+    font-size: 2em;
+  }
+
+  .achivements-tabs-item .achivements-listing-item {
+    padding: 0;
+    margin: 0;
+  }
+
+  .achivements-tabs-item .achivements-listing-item .achivement-post {
+    padding: 2em 0;
+  }
+
+  .achivements-nav ul li a {
+    padding: 10px;
+  }
+
+  .achivements-nav ul li {
+    width: 100%;
+  }
+
+  .achivements-nav ul li a h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 767px) {
+  .achivements-nav ul li a {
+    /* border-radius: 0 0 10px 10px; */
+    margin: 0 10px;
+  }
+}
